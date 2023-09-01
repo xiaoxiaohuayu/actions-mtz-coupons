@@ -28,7 +28,8 @@ const notifier = new Notifier({
     qq: process.env.QMSG_ADMIN
   }
 })
-
+console.log( process.env.BARK_KEY)
+console.log(TOKEN)
 const NOTIFY_TITLE = '外卖神券天天领😋'
 const MAX_RETRY_COUNT = 2
 const CHECK_UPDATE_TIMEOUT = 5000
